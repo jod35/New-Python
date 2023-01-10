@@ -1,0 +1,1 @@
+print("Hello World") #<- print is a function that takes in a value to print out
