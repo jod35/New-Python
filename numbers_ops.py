@@ -7,3 +7,4 @@ print(f"{a} * {b} ={a * b}") #multiplication
 print(f"{a} / {b} ={a / b}") #division
 print(f"{a} // {b} ={a // b}") #integer division
 print(f"{a} % {b} ={a % b}") #modulus
+print(f"{a} ** {b} ={a**b}") #power ops
