@@ -8,5 +8,7 @@ greeting_new = f"Hello {name}"
 
 print(greeting_new)
 
-greeting_u="Hello {}".format(name)
+name2 ="Ssali"
+
+greeting_u="Hello {} {}".format(name,name2)
 print(greeting_u)
