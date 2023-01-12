@@ -38,3 +38,23 @@ print('course' in person1) #False if does not exist
 simple_dict.clear()
 
 print(simple_dict) #{}
+
+#some dictionary methods
+print(person1.keys()) #returns an iterable of keys in the ditionary
+
+print(person1.values()) #returns an iterable of values in the dictionary
+
+
+for key in person1.keys():
+    print(key)
+
+# name
+# age
+# nationality
+
+for value in person1.values():
+    print(value)
+
+# Ruth
+# 23
+# Ugandan
