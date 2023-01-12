@@ -58,3 +58,21 @@ for value in person1.values():
 # Ruth
 # 23
 # Ugandan
+
+#pop out item doing in a dictionary
+person1.pop('name')
+
+print(person1)
+
+#how to update an item value in a dictionary
+person1.update({'name':"Jonathan"})
+
+print(person1)
+
+#gettings items with their keys using the .get() methods
+print(person1.get('name')) #Jonathan
+
+#set default
+person1.setdefault('name',"Jojo")
+
+print(person1.get('name'))
