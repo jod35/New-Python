@@ -24,3 +24,14 @@ print("\n")
 
 for position, item in enumerate(names):
     print(position,item)
+
+
+people = ['Nick','Rick','Roger','Syd']
+ages = [23,24,25,21]
+
+
+for position in range(len(people)):
+    person = people[position]
+    age = ages[position]
+
+    print(f"{person} {age}")
