@@ -72,3 +72,13 @@ def calculate_lowercase_and_uppercase(word):
 
 print(calculate_lowercase_and_uppercase("WANNA FIGHT mate?"))
 
+
+def get_even_numbers(list_num):
+    result = []
+    for i in list_num:
+        if i % 2 == 0:
+            result.append(i)
+
+    return result
+
+print(get_even_numbers([1,2,3,4,5,6,7,8]))
