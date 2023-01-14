@@ -32,4 +32,14 @@ def max_of_numbers(x,y,z):
         return z
 
 print(max_of_numbers(12,123,4))
+
+def multiply_all_numbers_in_list(list_of_numbers):
+    result = 1
+
+    for number in list_of_numbers:
+        result*=number
+
+    return result
+
+print(multiply_all_numbers_in_list([1,2,3,4,5]))
         
