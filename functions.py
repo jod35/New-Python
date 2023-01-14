@@ -43,3 +43,12 @@ def multiply_all_numbers_in_list(list_of_numbers):
 
 print(multiply_all_numbers_in_list([1,2,3,4,5]))
         
+
+def check_number_in_range(num,range_):
+    if num in range(0,range_):
+        return True
+
+    else:
+        return False
+
+print(check_number_in_range(2,10))
