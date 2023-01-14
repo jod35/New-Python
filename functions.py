@@ -52,3 +52,23 @@ def check_number_in_range(num,range_):
         return False
 
 print(check_number_in_range(2,10))
+
+def calculate_lowercase_and_uppercase(word):
+    up_total = 0
+    low_total = 0
+
+
+
+    for i in word:
+        if i.isalpha():
+            if i.islower():
+                low_total+1
+            elif i.isupper():
+                up_total+1
+        else:
+            print("No characters")
+
+    return up_total,low_total
+
+print(calculate_lowercase_and_uppercase("WANNA FIGHT mate?"))
+
